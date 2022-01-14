@@ -21,16 +21,11 @@ main {
 .mainImage p {
 	padding: 0 1rem;
 }
-/* .mainImage img {
-	width: 500px;
-} */
-
-.blackandwhiteimg {
-	width: 100%;
-}
 
 .blackandwhiteimg img {
-	object-fit: contain;
+	/* object-fit: contain; */
+	max-width: 100%;
+	height: auto;
 }
 .mainContent {
 	margin: 0 auto;
@@ -57,9 +52,12 @@ blockquote {
 	text-align: start;
 	font-style: italic;
 	font-size: 1.15rem;
-	padding: 1rem;
+	padding-bottom: 1rem;
+	max-width: 550px;
+	margin: 0 auto;
 }
 .mainFooter {
 	font-size: 1.25rem;
 	font-weight: 600;
+	margin: 0 auto;
 }
